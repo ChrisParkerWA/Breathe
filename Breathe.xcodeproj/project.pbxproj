@@ -13,7 +13,6 @@
 		DB0BF210240FE24800CAD148 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DB0BF20F240FE24800CAD148 /* Assets.xcassets */; };
 		DB0BF213240FE24800CAD148 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DB0BF212240FE24800CAD148 /* Preview Assets.xcassets */; };
 		DB0BF216240FE24800CAD148 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DB0BF214240FE24800CAD148 /* LaunchScreen.storyboard */; };
-		DB0BF21E240FE32900CAD148 /* BlueCircle.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB0BF21D240FE32900CAD148 /* BlueCircle.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -25,7 +24,6 @@
 		DB0BF212240FE24800CAD148 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		DB0BF215240FE24800CAD148 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		DB0BF217240FE24800CAD148 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		DB0BF21D240FE32900CAD148 /* BlueCircle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlueCircle.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,7 +59,6 @@
 				DB0BF209240FE24400CAD148 /* AppDelegate.swift */,
 				DB0BF20B240FE24400CAD148 /* SceneDelegate.swift */,
 				DB0BF20D240FE24400CAD148 /* ContentView.swift */,
-				DB0BF21D240FE32900CAD148 /* BlueCircle.swift */,
 				DB0BF20F240FE24800CAD148 /* Assets.xcassets */,
 				DB0BF214240FE24800CAD148 /* LaunchScreen.storyboard */,
 				DB0BF217240FE24800CAD148 /* Info.plist */,
@@ -150,7 +147,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				DB0BF20A240FE24400CAD148 /* AppDelegate.swift in Sources */,
-				DB0BF21E240FE32900CAD148 /* BlueCircle.swift in Sources */,
 				DB0BF20C240FE24400CAD148 /* SceneDelegate.swift in Sources */,
 				DB0BF20E240FE24400CAD148 /* ContentView.swift in Sources */,
 			);

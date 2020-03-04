@@ -8,6 +8,24 @@
 
 import SwiftUI
 
+struct BlueCircle: View {
+    @State private var offsetInOut = false
+    var body: some View {
+        ZStack {
+        Circle()
+            .foregroundColor(Color(red: 0, green: 1, blue: 1))
+            .opacity(1/2)
+            .frame(width: 150, height: 150)
+            .offset(x: offsetInOut ? -75 : 0)
+        }
+        .animation(Animation.easeInOut.repeatForever(autoreverses: true).speed(1/8))
+        .onAppear() {
+            self.offsetInOut.toggle()
+        }
+    }
+}
+
+
 struct ContentView: View {
     @State private var scaleInOut = false
     @State private var rotateInOut = false
